@@ -1,0 +1,39 @@
+{
+  "name": "RRLive",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "background": "assets/background.png",
+    "background_image": "assets/background_image.jpg",
+    "Carbon_Fiber": "assets/Carbon_Fiber.jpeg",
+    "Dark_Grey_Cloudy": "assets/Dark_Grey_Cloudy.jpeg",
+    "dark-triangles": "assets/dark-triangles.png",
+    "TextBackground": "assets/TextBackground.png",
+    "Text_Background": "assets/Text_Background.jpeg",
+    "Text_Background1": "assets/Text_Background1.png"
+  },
+  "color_schemes": {
+    "RRLive": {
+      "primary": "000000",
+      "secondary": "4d4e4e",
+      "tertiary": "35373d",
+      "quaternary": "e90426",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "e90426",
+      "danger": "e90426",
+      "success": "009900",
+      "love": "fa6c8d",
+      "tertiary-hover": "bebec0",
+      "primary-low": "bebec0"
+    }
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

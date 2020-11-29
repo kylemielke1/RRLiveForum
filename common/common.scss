@@ -1,0 +1,505 @@
+
+
+.d-header { /*header of the page (redROOMLIVE) */
+        box-shadow: 0px 0px 50px #000;
+        /*border-bottom: 4.5px solid $tertiary;
+	border-left: 4.5px solid $tertiary;
+	border-right: 4.5px solid $tertiary;*/
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+        height: 4em;
+	font-family: BLADRMF_;
+	.d-icon {
+		color: $secondary;
+	}
+}
+
+.invites-show form {
+	box-shadow: inset 0 0 100px 0 #636369, 10px 10px 100px 10px #000;
+	border-radius: 10px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-top: 7px;
+	color: #fff;
+		.instructions {
+			color: #fff;
+		}
+}
+
+.user-info .user-detail .username a {
+	color: #fff;
+}
+
+.col-form {
+	color: #fff;
+	box-shadow: inset 10px 10px 100px 10px #000, 10px 10px 100px 10px #000;
+	padding-right: 20px;
+	border-radius: 10px;
+}
+
+.invites-show .two-col {
+	color: #e90426;
+}
+
+#main-outlet {
+	color: #fff;
+}
+
+
+
+.invites-show form button.btn-primary {
+	background-color: #e90426;
+	border-radius: 5px;
+	color: #fff;
+	margin-top: 0px;
+		&:hover {
+			background-color: var(--quaternary-low);
+		}
+}
+
+
+.d-header-icons { /* header icons*/
+	.d-header{
+			max-width: 100%;
+	}
+}
+
+.fa.d-icon.d-icon-fab-twitch.svg-icon.svg-node {
+	color: #6441a5;
+}
+
+.fa.d-icon.d-icon-fab-twitter.svg-icon.svg-node {
+	color: #1da1f2;
+}
+
+.fa.d-icon.d-icon-fab-instagram.svg-icon.svg-node {
+	color: #fcaf45;
+}
+
+.fa.d-icon.d-icon-fab-youtube.svg-icon.svg-node {
+	color: #ff0000
+}
+
+.menu-panel { /*drop down menu, top right corner*/
+	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/8/89d209422c9bd153eac049ed32239bdaf3dda47d.png');
+	background-size: cover;
+	border-radius: 15px;
+	color: #fff;
+		.btn {
+			background-color: #fff;
+			color: #fff;
+		&:hover {
+			background: #e90426;
+			}
+		}
+			.panel-body-bottom {
+				background: none;
+				.btn {
+					background: none;
+					color: #fff;
+					border-radius: 15px;
+				}
+			}
+	
+}
+
+.menu-panel li a.widget-link, .menu-panel li a.categories-link, .menu-panel li.heading a.widget-link, .menu-panel li.heading a.categories-link { /*text for drop down menu*/
+	color: #fff;
+}
+
+.user-menu {
+	.quick-access-panel {
+		color: #fff;
+		margin-top: 2.5px;
+		.read { /*user panel*/
+			background: none;
+			color: #fff;
+		}
+		
+		.d-icon, &:hover .d-icon {
+			color: #e90426;
+		}
+		
+		.d-icon:hover {
+			color: #e90426;
+		}
+		
+		.icon {
+			color: #fff;
+		}
+		
+		li a {
+			color: #fff;
+		}
+		
+		li span:first-child {
+			color: #e90426;
+		}
+
+		li {
+			background-color: #b6b6b6;
+			border-radius: 5px;
+			color: #000;
+		}
+		
+		&.quick-access-profile {
+			li:not(.show-all) a {
+					color: #fff;
+			}
+		}
+	}
+}
+
+.admin-detail { /*Admin settings*/
+	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/8/89d209422c9bd153eac049ed32239bdaf3dda47d.png');
+	background-size: cover;
+}
+
+.admin-controls {
+	background: none;
+}
+
+.admin-controls .controls {
+	background: none;
+}
+
+.admin-contents {
+	background: none;
+	border-radius: 25px;
+}
+
+.boxed.white {
+	background: none;
+}
+
+.admin-content .admin-contents {
+	background: none;
+}
+	
+body { /*background of the page*/
+	background: url('https://github.com/kyleamielke/RRLive/raw/main/assets/background%20image.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+tbody { /*background of the posting area (table)*/
+	background: url('https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/themecreator/original/2X/8/89d209422c9bd153eac049ed32239bdaf3dda47d.png');
+        background-size: cover;
+	border-top: none;
+        color: #ffffff;
+}
+
+.full-width { /*area in middle where "Latest, Top, Categories" buttons are*/
+	box-shadow: inset 0 0 30px #000, 0px 0px 100px #000;
+	border-radius: 13px;
+	width: 100%;
+	display: table;
+	margin: 5px;
+	color: #ffffff;
+}
+
+.discourse-no-touch {
+	.sortable:hover {
+		background-color: #e90426;
+	}
+}
+
+.row {
+	border-top: none;
+	border-bottom: none;
+}
+
+table th {
+	color: #ffffff;
+}
+
+#list-area {
+	border-radius: 15px;
+	width: 100%;
+}
+
+#create-topic {
+	border-radius: 10px;
+	background-color: #e90426;
+	margin-top: 20px;
+	margin-right: 15px;
+	color: #fff;
+}
+
+.nav-pills>li>a {
+	border-radius: 10px;
+	color: #ffffff;
+	margin-top: 20px;
+}
+
+a:visited {
+	color: #b6b6b6;
+}
+
+.search-menu input[type="text"] {
+    border-radius: 10px;
+    background: none;
+	color: #fff;
+}
+
+.search-menu .results .search-result-topic a.widget-link {
+    color: #e90426;
+}
+
+.search-link .blurb {
+	color: #fff;
+}
+
+span.d-label {
+	color: #fff;
+}
+
+/* LOGIN BUTTON */
+.d-header .login-button {
+	background-color: #e90426;
+	box-shadow: 0 0 10px #000;
+	color: #fff;
+	border-radius: 5px;
+	
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+
+.btn-primary.login-button.btn.btn-icon-text.ember-view{
+	background-color: #e90426;
+	box-shadow: 0 0 15px #000;
+	border-radius: 7px;
+	color: #fff;
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+
+.btn-primary.sign-up-button.btn.btn-text.ember-view {
+	padding-right: 3px;
+	background-color: #e90426;
+	box-shadow: 0 0 15px #000;
+	border-radius: 7px;
+	color: #fff;
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+
+
+.d-header .login-button, .d-header .sign-up-button {
+    background-color: #e90426;
+	box-shadow: 0 0 10px #000;
+	color: #fff;
+	border-radius: 5px;
+	
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+
+.login-modal td label, .login-modal td input, .create-account td label, .create-account td input {
+    color: #fff;
+}
+
+.modal-inner-container {
+	background: none;
+	box-shadow: inset 10px 10px 100px 10px #000, 0 8px 60px #000;
+	color: #fff;
+	border-radius: 25px;
+}
+
+.login-modal tbody, .create-account tbody {
+    background: none;
+}
+
+input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+	background: none;
+}
+
+.modal-footer .btn {
+	color: #fff;
+	background-color: #e90426;
+	border-radius: 10px;
+}
+
+.login-modal #login-buttons:not(.hidden) button, .create-account #login-buttons:not(.hidden) button {
+	color: #fff;
+	background-color: #e90426;
+	border-radius: 7px;
+	
+	&:hover {
+		background-color: var(--quaternary-low);
+	}
+}
+/* END OF LOGIN INFO */
+.btn .d-icon {
+	color: #fff;
+}
+
+.d-header .login-button .fa, .d-header .sign-up-button .fa {
+    color: #fff;
+}
+
+.list-controls {
+	background-size: contain;
+	box-shadow: inset 0px 0px 100px 0px #000, 0 0 100px #000;
+	border-radius: 25px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	width: 75%;	
+	height: 70px;
+	.combo-box .combo-box-header {
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-top: 20px;
+		background: #e90426;
+		color: #000000;
+		border-radius: 10px;
+		display: none;
+	}
+}
+
+span.name {
+	color: #ffffff;
+}
+
+.category-name {
+	color: #e90426;
+}
+
+.select-kit.single-select {
+	.select-kit-filter {
+		.filter-input {
+			color: #ffffff;
+		}
+		&.is-expanded {
+		background-color: #636363;
+		color: #ffffff;
+		}
+	}
+}
+
+.select.kit.combo-box.category-drop {
+	.select-kit-row {
+		background-color: #e90426;
+	}
+}
+
+element.style {
+	background-color: #e90426;
+}
+
+.select-kit {
+	.select-kit-row.is-highlighted {
+			background-color: #e90426;
+		
+	}
+}
+
+.topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title {
+        color: #ffffff;
+}
+
+div.menu-links-header .menu-links-row li.glyphs a {
+	border-radius: 10px;
+}
+
+.menu-panel li a.widget-link, .menu-panel li a.categories-link, .menu-panel li.heading a.widget-link, .menu-panel li.heading a.categories-link {
+	border-radius: 10px;
+}
+
+.topic-list th:last-of-type, .topic-list td:last-of-type { /*Activity Button of topics*/
+	border-radius: 0 10px 0 0;
+}
+
+button.btn.btn-default.bulk-clear-all { /*Select all button for topics*/
+		border-radius: 10px;
+		background-color: var(--quaternary);
+		color: #fff;
+		&:hover {
+			background-color: var(--quaternary-low);
+		}
+}
+
+button.btn.btn-default.bulk-select-all { /*Clear all button for topics*/
+		border-radius: 10px;
+		background-color: var(--quaternary);
+		color: #fff;
+		&:hover {
+			background-color: var(--quaternary-low);
+		}
+}
+
+div.menu-links-header .menu-links-row li a.active {
+    border: 1px solid var(--primary-low);
+    border-bottom: 1px solid var(--secondary);
+    position: relative;
+    box-shadow: inset 0 0 5px #fff;
+}
+
+
+/* ALL IN THIS AREA IS FOR CREATING A NEW TOPIC */
+body:not(.ios-safari-composer-hacks) #reply-control.open {
+	background: none;
+	box-shadow: inset 25px 25px 900px 175px #000, 0 0 100px #000;
+	border-radius: 15px 15px 0 0;
+}
+
+#reply-control .save-or-cancel button {
+    flex: 0 0 auto;
+    background-color: var(--quaternary);
+    border-radius: 10px;
+    color: #fff;
+	&:hover {	
+		background-color: var(--quaternary-low);
+	}
+}
+
+#reply-control .reply-to .d-icon {
+    color: #fff;
+}
+
+#reply-control #reply-title {
+	background: none;
+	color: #fff;
+}
+
+#reply-control .category-input .category-chooser .select-kit-header {
+	background: none;
+}
+
+ .d-editor-textarea-wrapper {
+	background: none;
+	color: #fff;
+}
+
+.d-editor-button-bar .btn, .d-editor-button-bar .btn-default {
+	color: #fff;
+}
+
+.d-editor-input {
+	color: #fff;
+}
+
+.d-editor, .d-editor-preview {
+	color: #fff;
+}
+
+.open .grippie {
+	background: none;
+}
+
+#reply-control .category-input .category-chooser .select-kit-header { /*For search button on "New Topic"*/
+    background: none;
+	color: #fff;
+}
